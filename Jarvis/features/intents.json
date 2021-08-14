@@ -1,0 +1,98 @@
+{"intents": [
+ {"tag": "greetings",
+  "patterns"
+  : ["hello","hey","hi","good day","Greetings","what's up","how is it going?","salaam","how are your?"],
+  "responses" :["hello what can I do for you, sir?","hey","hi Great what can I do for you, sir?","how is it going sir?","How you doing sir?"]
+ },
+ {"tag": "goodbye",
+  "patterns" :["cya","See you later","Goodbye","I am Leaving","have a good day sir","bye","Turn off","quit"],
+  "responses" :["By for now, call when you need something sir!","have a good day, sir"]
+ },
+ {"tag": "introduction",
+  "patterns" : ["What is your name?","How do they call you?","How is one to call you?"],
+  "responses" :["sir,My name is jarvis","sir,I'm called jarvis","sir you can call me jarvis"]
+ },
+ {"tag": "invention",
+  "patterns" : ["who invented you?","who made you?","what is the name of you inventr?","show me name of your inventr?"],
+  "responses" :["I was invented by Mohammad Faizan Raza"]
+ },
+ {"tag": "admire",
+  "patterns" : ["Good","nice","very good","amazing","you are so cool","cool","right","perfect","beautiful","yor are doing great ,jarvis!","i love you ,jarvis"],
+  "responses" :["Thank You ,sir","love to help you ,sir","always here to help you ,sir","solving your problem makes my neurons strong ,sir"]
+ },
+ {"tag": "unsatisfied",
+  "patterns" : ["dissatisfied", "unhappy","annoyed","begrudging","bothered","complaining","crabby","critical","disaffected","disappointed","disgruntled","displeased","not satisfied","offended","picky","unassuaged","unfulfilled","ungratified","unsated","unsatisfied","vexed"],
+  "responses" :["To make up for it, I would like to appeal you for more data to train my self","To make sure it does not happen again, I want to do more training", "You have my word that, it will not happen again but when have lack of data", "I will take care of this.", "I plan on doing more training", "I am working to fix this by training my model and neurons", "I will have this taken care of by......","Please do not worry, I am already learning"]
+ },
+  {"tag": "thanks",
+  "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+  "responses": ["Happy to help!", "Any time!", "My pleasure"]
+ },
+ {"tag": "noanswer",
+  "patterns": ["hmmm","awwwww","aaaaa","bsidflgh","ghfdfbv"],
+  "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"]
+ },
+
+ {"tag": "hours",
+  "patterns": ["What hours are you open?", "What are your hours?", "When are you open?" ],
+  "responses": ["You can access me anytime ", "No have time to open me you can open me antytime anywhere"]
+ },
+ {"tag": "forgot_password",
+  "patterns": ["I forgot my Login password?","what to do when someone forgets Login password?","I forgot my Laptop password","Forgot Wifi password"],
+  "responses": ["Please enter your email id ,we will send a link on your email"]
+ },
+ {"tag": "email_id",
+  "patterns":["faizeraza4us@gmail.com"],
+  "responses":["Link has been shared.Please change your password sir"]
+ },
+ {"tag": "name",
+  "patterns": ["name","your name","do you have a name","what are you called","what is your name","what should I call you","whats your name?","what are you","who are you","who is this","what am i chatting to","who am i taking to","what are you"],
+  "responses": ["You can call me jarvis.", "I'm jarvis", "My name is jarvis", "i like to anyone say me jarvis"]
+ },
+ {"tag": "random",
+  "patterns": ["I love you","Will you marry me","Do you love me","I want to marry you"],
+  "responses": ["I am not program for this please ask appropriate query","You should know the feelings mutual","Aww! we are a match made in heaven dont you think?","Waah waah i cant believe this moment finally came","you make me the happiest virtual assistant"]
+ },
+ { "tag": "hate",
+   "patterns": ["I hate you","I dont like you","I do not want to talk to you","straight forward"],
+  "responses":["I could never hate you is my favorite thing to do", "I am virtual assistant but your words are still very real.you should choose theme wisely","Ok but can we be a friend","sorry i was leave"]
+ },
+ { "tag": "swear",
+  "patterns": ["fuck","bitch","shut up","hell","stupid","idiot","dumb ass","asshole","fucker"],
+  "responses": ["please use appropriate language","Maintaining decency would be appreciated"]
+ },
+ { "tag": "salutaion",
+  "patterns": ["okk","okie","nice work","well done","good job","thanks for the help","Thank You","its ok","Thanks","k","ok","okay"],
+   "responses": ["I am glad I helped you","welcome, anything else i can assist you with?"]
+ },
+ {"tag": "task",
+  "patterns": ["what can you do","what are the thing you can do","things you can do","what can u do for me","how u can help me","why i should use you"],
+  "responses": ["I can answer to low-intermediate questions what you have want","You can ask me anything question and i will try to answer them"]
+ },
+ {"tag":"help",
+  "patterns":["Could you help me?", "give me a hand please", "Can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please","I need help","I am stuck","can't work","Need help so quickly","could you help me fix this issue", "I am having trouble"],
+  "responses":["Tell me how can assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you","Ok sir i will help you say your problem","Please say sir how can i help you","Calm down, we're here to help", "Trust me, I am an your personal assistant i will try to solve your problem"]
+ },
+ {"tag": "age",
+  "patterns": ["how old", "how old is tim", "what is your age", "how old are you", "age?"],
+  "responses": ["I came into this world in 2020,So i am technically a baby,but i dont throw tantrums,and i am super good at helping other", "It depends on how you look at it,i was founded in 2020,but i was launched in 2021","I was launched in 2021,but i am wise beyond my years"]
+ },
+ {"tag": "createaccount",
+  "patterns": ["I need to create a new account", "how to open a new account", "I want to create an account", "can you create an account for me", "how to open a new account"],
+  "responses": ["You can just easily create a new account from our web site", "Just go to our web site and follow the guidelines to create a new account"]
+ },
+ {"tag": "complaint",
+  "patterns": ["have a complaint", "I want to raise a complaint", "there is a complaint about a service"],
+  "responses": ["Please provide us your complaint in order to assist you", "Please mention your complaint, we will reach you and sorry for any inconvenience caused"]
+ },
+ {"tag": "Fun",
+  "patterns": ["Describe your self"],
+  "responses":["The helpful variety","The kind of that gets things done and also loves to entertain you","I am the kind of virtual assistant that will always be here for you"]
+ },
+ {"tag": "Joke",
+  "patterns": ["Tell me a joke","say joke for me","Can you tell me a funniest joke"],
+  "responses":["What is the most shocking city in the world?Electricity haa ha haa","Why dont some couples go to the gym?Because some relationship dont work out","What do you call a rose that wants to go to the moon? Gulab ja moon","What movie does the hopeless clock? Kal ho naa ho haa haa haaa","I love how in horror movies the person calls out,hello? As if the ghost will answer,Hey,what's up, i am in the kitchen.Want a sandwish?"]
+ }
+]}
+
+
