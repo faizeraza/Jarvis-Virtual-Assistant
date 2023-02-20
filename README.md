@@ -1,5 +1,3 @@
-# JARVIS (Just a Rather Very Intelligent System)
-
 #### This was my attempt to make a voice assistant.
 #### --A voice-based virtual assistant-- An AI-powered application that can understand natural language and perform various tasks. This readme file will guide you on how to use this virtual assistant.
 
@@ -7,7 +5,8 @@
 
 <code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png"></code>
 
-
+#GUI DEMO
+<code><img src="https://github.com/faizeraza/Jarvis-Virtual-Assistant-/blob/master/windows.png"></code>
 ## Features
 
 #### For a cool demo of this project watch this [YouTube video](https://www.youtube.com/watch?v=oKtrHy0ERNA)
