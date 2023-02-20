@@ -1,7 +1,7 @@
 # JARVIS (Just a Rather Very Intelligent System)
 
 #### This was my attempt to make a voice assistant.
-
+#### --A voice-based virtual assistant-- An AI-powered application that can understand natural language and perform various tasks. This readme file will guide you on how to use this virtual assistant.
 
 ## Built with
 
@@ -68,14 +68,15 @@ To run this program you will require a bunch of API keys. Register your API key 
 
 
     ├── driver
-    ├── Jarvis              # Main folder for features 
-    │   ├── config          # Contains all secret API Keys
-    │   ├── features        # All functionalities of JARVIS 
-    │   └── utils           # GUI images
-    ├── __init__.py         # Definition of feature's functions
-    ├── gui.ui              # GUI file (in .ui format)
-    ├── main.py             # main driver program of Jarvis
-    ├── requirements.txt    # all dependencies of the program
+    ├── Jarvis                                  # Main folder for features 
+    │   ├── config                              # Contains all secret API Keys
+    │   ├── features                            # All functionalities of JARVIS
+              ├──Friday_blueprint.py            # GUI Main Window
+              ├──bot_voice.py                   # Sub Window bot voice button
+    │   └── utils                               # GUI images
+    ├── __init__.py                             # Definition of feature's functions
+    ├── main.py                                 # main driver program of Jarvis
+    ├── requirements.txt                        # all dependencies of the program
 
 - The code structure if pretty simple. The code is completely modularized and is highly customizable
 - To add a new feature:
