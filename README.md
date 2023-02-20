@@ -1,7 +1,7 @@
 # JARVIS (Just a Rather Very Intelligent System)
 
-#### This was my attempt to make a voice assistant similar to JARVIS (in iron man movie)
-#### Let's be honest, it's not as intelligent as in the movie, but it can do a lot of cool things and automate your daily tasks you do on your personal computers/laptops.
+#### This was my attempt to make a voice assistant.
+
 
 ## Built with
 
@@ -37,6 +37,7 @@ It can do a lot of cool things, some of them being:
 - Can take screenshot and save it with custom filename
 - Can hide all files in a folder and also make them visible again
 - Has a cool Graphical User Interface
+- Can respond to any command
 
 ## API Keys
 To run this program you will require a bunch of API keys. Register your API key by clicking the following links
